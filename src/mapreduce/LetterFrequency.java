@@ -115,7 +115,7 @@ public class LetterFrequency extends Configured implements Tool {
 	{
 	  try {
 		  Configuration confFile = new Configuration();
-		  FileSystem fileSystem = FileSystem.get(confFile);;
+		  FileSystem fileSystem = FileSystem.get(confFile);
 		  
 		  if (!fileSystem.delete(file, true)) {
 			fileSystem.close();
