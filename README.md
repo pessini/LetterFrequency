@@ -42,8 +42,8 @@ For this project I am using [6 books](./dataset/books/) from English, Portuguese
 [5]: http://www.gutenberg.org/ebooks/57787
 [6]: http://www.gutenberg.org/ebooks/55752
 
-### Loading data into HDFS
----
+## Loading data into HDFS
+
 ```shell
 hadoop fs -mkdir /books
 hadoop fs -put ./sf_VM-Shared-Folder/books/ /books
@@ -53,7 +53,15 @@ hadoop fs -put ./sf_VM-Shared-Folder/books/ /books
 
 [Dataset]: https://github.com/pessini/LetterFrequency/blob/master/img/hdfs-dataset.png "Dataset in HDFS"
 
----
+
+## Running the program
+
+```shell
+hadoop jar sf_VM-Shared-Folder/LetterFrequency.jar books output
+```
+
+The __JAR__ file can be found [here](./JAR/).
+
 A screenshot from the terminal with the Counters showing how many books were processed and the records processed in Mapper and Reducer:
 
 ![alt text][linux-terminal]
