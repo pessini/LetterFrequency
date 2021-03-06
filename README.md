@@ -1,10 +1,10 @@
 # Analysis of Letter Frequency
 
-Using  **HDFS**  and  **MapReduce**  to  calculate  average  letter  frequencies  across  a number  of  languages using  the  books  that  are  available  in  Project  Gutenberg (http://www.gutenberg.org/).
+Using  **HDFS**  and  **MapReduce**  to  calculate  average  letter  frequencies  across  a number  of  languages using  the  books  that  are  available  in  [Project Gutenberg](http://www.gutenberg.org/ "Project Gutenberg").
 
 ### Assumptions
 
-All files downloaded from the website Project Gutenberg and are in Plain Text UTF-8 format.
+All files downloaded from the website [Project Gutenberg](http://www.gutenberg.org/ "Project Gutenberg") and are in Plain Text UTF-8 format.
 
 All files must be named using its language as prefix and we assume that all books from the same language must have the same prefix plus "-".
 
@@ -24,7 +24,7 @@ For this project I am using 6 books from English, Portuguese and Italian.
 - [Orlando innamorato by Matteo Maria Boiardo][5]
 - [Dom Casmurro by Machado de Assis][6]
 
-[1]: http://www.gutenberg.org/ebooks/54829
+[1]: http://www.gutenberg.org/ebooks/51245
 [2]: http://www.gutenberg.org/ebooks/41281
 [3]: http://www.gutenberg.org/ebooks/54829
 [4]: http://www.gutenberg.org/ebooks/25497
