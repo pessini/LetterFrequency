@@ -15,6 +15,8 @@ Example:
 - it-book1.txt
 - pt-book1.txt …
 
+### Dataset
+
 For this project I am using 6 books from English, Portuguese and Italian.
 
 - [Journal of Small Things by Helen Mackay][1]
@@ -30,3 +32,5 @@ For this project I am using 6 books from English, Portuguese and Italian.
 [4]: http://www.gutenberg.org/ebooks/25497
 [5]: http://www.gutenberg.org/ebooks/57787
 [6]: http://www.gutenberg.org/ebooks/55752
+
+---
