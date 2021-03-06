@@ -2,7 +2,7 @@
 
 Using  **HDFS**  and  **MapReduce**  to  calculate  average  letter  frequencies  across  a number  of  languages using  the  books  that  are  available  in  [Project Gutenberg](http://www.gutenberg.org/ "Project Gutenberg").
 
-### Assumptions
+## Assumptions
 
 All files downloaded from the website [Project Gutenberg](http://www.gutenberg.org/ "Project Gutenberg") and are in Plain Text UTF-8 format.
 
@@ -17,15 +17,16 @@ Example:
 
 __Software version__
 
+
 - JavaSE 1.7
 - Hadoop Virtual Machine (VM) - Ubuntu 64-bit
 - Hadoop MapReduce 2.2.0
 - Oracle VirtualBox 6.1
 - Eclipse IDE - Version: 2020-12 (4.18.0)
 
-### Dataset
+## Dataset
 
-For this project I am using 6 books from English, Portuguese and Italian.
+For this project I am using [6 books](./dataset/books/) from English, Portuguese and Italian.
 
 - [Journal of Small Things by Helen Mackay][1]
 - [Il perduto amore by Umberto Fracchia][2]
@@ -41,8 +42,8 @@ For this project I am using 6 books from English, Portuguese and Italian.
 [5]: http://www.gutenberg.org/ebooks/57787
 [6]: http://www.gutenberg.org/ebooks/55752
 
-__Loading data into HDFS__
-
+### Loading data into HDFS
+---
 ```shell
 hadoop fs -mkdir /books
 hadoop fs -put ./sf_VM-Shared-Folder/books/ /books
@@ -72,9 +73,9 @@ In order to work on the result just get the file from the HDFS making a copy to 
 hadoop fs -copyToLocal /user/soc/output/part-r-00000 ./sf_VM-Shared-Folder/frequency-letter.txt
 ```
 
-### Plotting the results
+## Plotting the results
 
-Here is the final analyses comparing the 3 languages using Python ([code here](./python/letter-frequency.ipynb)):
+Here is the final analysis comparing the 3 languages using Python ([code here](./python/letter-frequency.ipynb)):
 
 ![alt text][Languages-Plot]
 
