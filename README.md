@@ -42,7 +42,8 @@ For this project I am using [6 books](./dataset/books/) from English, Portuguese
 [5]: http://www.gutenberg.org/ebooks/57787
 [6]: http://www.gutenberg.org/ebooks/55752
 
-See the full code explanation [here](./src/mapreduce/README.md).
+### See the full code explanation [here](./src/mapreduce/README.md).
+
 
 ## Loading data into HDFS
 
