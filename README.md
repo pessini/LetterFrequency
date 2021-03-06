@@ -74,7 +74,7 @@ hadoop fs -copyToLocal /user/soc/output/part-r-00000 ./sf_VM-Shared-Folder/frequ
 
 ### Plotting the results
 
-Here is the final analyses comparing the 3 languages:
+Here is the final analyses comparing the 3 languages using Python ([code here](./python/letter-frequency.ipynb)):
 
 ![alt text][Languages-Plot]
 
