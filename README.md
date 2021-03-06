@@ -33,6 +33,11 @@ For this project I am using 6 books from English, Portuguese and Italian.
 [5]: http://www.gutenberg.org/ebooks/57787
 [6]: http://www.gutenberg.org/ebooks/55752
 
+__Loading dataset into HDFS__
+```shell
+hadoop fs -put ./sf_VM-Shared-Folder/books/ $PATH
+```
+
 ![alt text][Dataset]
 
 [Dataset]: https://github.com/pessini/LetterFrequency/blob/master/img/hdfs-dataset.png "Dataset in HDFS"
