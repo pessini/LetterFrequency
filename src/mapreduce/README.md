@@ -136,9 +136,9 @@ INPUT example
 */
 ```
 
-__Mapper__ -  Identity Mapper
+__Mapper__ - Identity Mapper
 
-__Reducer__ -  [AverageReducer.java](./AverageReducer.java)
+__Reducer__ - [AverageReducer.java](./AverageReducer.java)
 
 In the Reducer for each line from the Sequence File I will get the first row which is the sum of all letters for that language and then use it to calculate the Average as below:
 
@@ -162,7 +162,7 @@ if (languageLetter.length == 1) { // total letter by language
 
 ## Driver
 
-The first part of the Driver class is to check if there is an existing Output directory and delete it if it is true.
+The first part of the [Driver class](./LetterFrequency.java) is to check if there is an existing Output directory and delete it if it is true.
 
 ```java
 // Job 1
