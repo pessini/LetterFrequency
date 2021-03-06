@@ -34,3 +34,8 @@ For this project I am using 6 books from English, Portuguese and Italian.
 [6]: http://www.gutenberg.org/ebooks/55752
 
 ---
+This is terminal screenshot with the Counters showing how many books were processed:
+
+![alt text][linux-terminal]
+
+[linux-terminal]: https://github.com/pessini/LetterFrequency/blob/master/img/terminal-counters.png "Linux Terminal with Counters"
