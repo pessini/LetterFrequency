@@ -1,5 +1,7 @@
 # Analysis of Letter Frequency
 
+<img src="./img/hadoop-logo.png" alt="Apache Hadoop" width="250"/><br>
+
 Using  **HDFS**  and  **MapReduce**  to  calculate  average  letter  frequencies  across  a number  of  languages using  the  books  that  are  available  in  [Project Gutenberg](http://www.gutenberg.org/ "Project Gutenberg").
 
 ## Assumptions
