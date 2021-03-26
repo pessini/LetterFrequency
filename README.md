@@ -27,7 +27,7 @@ __Software version__
 
 ## Dataset
 
-For this project I am using [6 books](./dataset/books/) from English, Portuguese and Italian.
+For this project was used [6 books](./dataset/books/) from English, Portuguese and Italian.
 
 - [Journal of Small Things by Helen Mackay][1]
 - [Il perduto amore by Umberto Fracchia][2]
